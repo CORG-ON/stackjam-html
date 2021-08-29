@@ -88,25 +88,10 @@
 
       <!-- slideshow -->
       <div class="slideshow-container">
-
         <img class="mySlides fade" src="./images/slideshow-image1.jpeg" style="width: 100%;">
         <img class="mySlides fade" src="./images/slideshow-image2.jpeg" style="width: 100%;">
         <img class="mySlides fade" src="./images/slideshow-image3.jpeg" style="width: 100%;">
         <img class="mySlides fade" src="./images/slideshow-image4.jpg" style="width: 100%;">
-
-        <script>
-          var slides = document.getElementsByClassName("mySlides");
-          var slideIndex = 0;
-          function showSlide() {
-            for (var i = 0; i < slides.length; i++) {
-              slides[i].style.display = "none";
-            }
-            slides[slideIndex].style.display = "block";
-            slideIndex = (slideIndex+1)%slides.length;
-            setTimeout(showSlide, 4000);
-          }
-          showSlide();
-        </script>
       </div>
     </div>
   </section>
