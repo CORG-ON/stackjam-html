@@ -19,4 +19,7 @@ fetch("/nav.html").then(b => b.text())
 fetch("/footer.html").then(b => b.text())
   .then(b => {
     document.getElementById("footer").innerHTML = b;
+    // ********** set date ************
+    const date = document.getElementById("date");
+    date.innerHTML = new Date().getFullYear();
   });
