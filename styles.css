@@ -71,9 +71,8 @@ section {
 }
 
 body {
-  font-family: var(--ff-secondary);
-  background: var(--clr-grey-10);
-  color: var(--clr-grey-1);
+  background: #fff;
+  color: #000;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -87,11 +86,10 @@ h1,
 h2,
 h3,
 h4 {
-  letter-spacing: var(--spacing);
+  letter-spacing: 0.1rem;
   text-transform: capitalize;
   line-height: 1.25;
   margin: 2rem auto;
-  font-family: var(--ff-primary);
 }
 h1 {
   font-size: 3rem;
@@ -109,7 +107,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-5);
+  color: var(--clr-grey-4);
   vertical-align: middle;
   margin: 30px 20%;
 }
@@ -176,8 +174,8 @@ Navbar
 ===============
 */
 nav {
-  background: var(--clr-white);
-  box-shadow: var(--light-shadow);
+  background: #fff;
+  box-shadow: var(--dark-shadow);
 }
 .nav-header {
   display: flex;
@@ -187,14 +185,14 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: var(--clr-primary-5);
+  color: #000;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
   cursor: pointer;
 }
 .nav-toggle:hover {
-  color: var(--clr-primary-1);
+  color: #000;
   transform: rotate(90deg);
 }
 .logo {
@@ -260,7 +258,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: var(--clr-primary-5);
+    color: #000;
     transition: var(--transition);
   }
   .social-icons a:hover {

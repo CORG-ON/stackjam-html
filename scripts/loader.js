@@ -16,5 +16,7 @@ fetch("/nav.html").then(b => b.text())
     });
   });
 
-// fetch("/footer.html").then(b => b.text())
-//     .then(b => document.getElementById("footer").innerHTML = b);
+fetch("/footer.html").then(b => b.text())
+  .then(b => {
+    document.getElementById("footer").innerHTML = b;
+  });
