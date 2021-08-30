@@ -280,6 +280,7 @@ buttons
   border-width: 2px;
   border-style: solid;
   border-color:#000;
+  transition: 0.3s;
 }
 .btn:hover {
   color: #fff; 
