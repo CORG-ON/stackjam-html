@@ -1,6 +1,4 @@
 window.addEventListener('DOMContentLoaded', (event) => {
-
-
     // SLIDESHOW
     var slides = document.getElementsByClassName("mySlides");
     var slideIndex = 0;
