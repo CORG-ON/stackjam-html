@@ -424,3 +424,25 @@ img {
   font-size: 18px; 
   font-weight: 300;
 }
+
+
+/*
+=============== 
+Animations
+===============
+*/
+@keyframes fade-in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.fade-in-3 {
+  animation: fade-in 3s;
+}
+
+.fade-in-3-pre {
+  visibility: hidden;
+}
