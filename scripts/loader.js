@@ -14,6 +14,7 @@ fetch("/nav.html").then(b => b.text())
       // }
       links.classList.toggle('show-links'); // same thing as above
     });
+    if (window.scrollY < 105) window.scroll(window.scrollX, 0);
   });
 
 fetch("/footer.html").then(b => b.text())
