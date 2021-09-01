@@ -340,12 +340,37 @@ Meet the Team
 
 #team-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  grid-template-columns: repeat(5, 230px);
   grid-gap: 20px;
   list-style-type: none;
   padding: 0px;
   max-width: 1230px;
   margin: 4em auto;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1300px) {
+  #team-container {
+    grid-template-columns: repeat(4, 230px);
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  #team-container {
+    grid-template-columns: repeat(3, 230px);
+  }
+}
+
+@media screen and (max-width: 820px) {
+  #team-container {
+    grid-template-columns: repeat(2, 230px);
+  }
+}
+
+@media screen and (max-width: 500px) {
+  #team-container {
+    grid-template-columns: repeat(1, 230px);
+  }
 }
 
 #team-container > li {
