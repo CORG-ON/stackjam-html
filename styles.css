@@ -58,6 +58,10 @@ Global Styles
 ===============
 */
 
+html {
+  font-family: sans-serif;
+}
+
 *,
 ::after,
 ::before {
@@ -71,8 +75,8 @@ section {
 }
 
 body {
-  background: #fff;
-  color: #000;
+  background: #000;
+  color: #fff;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -107,7 +111,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-4);
+  color: var(--clr-grey-9);
   vertical-align: middle;
   margin: 30px 20%;
 }
@@ -174,7 +178,7 @@ Navbar
 ===============
 */
 nav {
-  background: #fff;
+  background: #000;
   box-shadow: var(--dark-shadow);
 }
 .nav-header {
@@ -185,7 +189,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: #000;
+  color: #fff;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -196,11 +200,11 @@ nav {
   transform: rotate(90deg);
 }
 .logo {
-  height: 40px;
+  height: 60px;
 }
 .links a {
-  color: var(--clr-grey-3);
-  font-size: 1rem;
+  color: #fff;
+  font-size: 12px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -214,6 +218,7 @@ nav {
 }
 .social-icons {
   display: none;
+  color: #fff;
 }
 /* by default hides links */
 .links {
@@ -258,7 +263,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: #000;
+    color: #fff;
     transition: var(--transition);
   }
   .social-icons a:hover {
@@ -445,7 +450,7 @@ img {
   margin: auto;
 }
 .program {
-  margin: 50px auto;
+  margin: 120px auto;
 }
 .subtitle {
   font-size: 18px; 
