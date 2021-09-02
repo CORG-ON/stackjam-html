@@ -228,7 +228,7 @@ nav {
 }
 /* toggle class */
 .show-links {
-  height: 17rem;
+  height: 19rem;
 }
 @media screen and (min-width: 900px) {
   .nav-center {
@@ -281,7 +281,7 @@ buttons
 }
 .btn {
   padding: 8px 14px; 
-  font-size:1rem; 
+  font-size: 12px; 
   color: #000;
   background-color:#fff; 
   border-radius: 3px;
