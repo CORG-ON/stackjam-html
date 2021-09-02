@@ -75,8 +75,8 @@ section {
 }
 
 body {
-  background: #000;
-  color: #fff;
+  background: #fff;
+  color: #000;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -97,7 +97,7 @@ h4 {
 }
 h1 {
   font-size: 3rem;
-  color: var(--clr-primary-5);
+  color: var(--clr-primary-3);
   margin: 30px auto;
 }
 h2 {
@@ -111,7 +111,7 @@ h4 {
 }
 p {
   margin-bottom: 1.25rem;
-  color: var(--clr-grey-9);
+  color: var(--clr-grey-4);
   vertical-align: middle;
   margin: 30px 20%;
 }
@@ -178,7 +178,7 @@ Navbar
 ===============
 */
 nav {
-  background: #000;
+  background: #fff;
   box-shadow: var(--dark-shadow);
 }
 .nav-header {
@@ -189,7 +189,7 @@ nav {
 }
 .nav-toggle {
   font-size: 1.5rem;
-  color: #fff;
+  color: #000;
   background: transparent;
   border-color: transparent;
   transition: var(--transition);
@@ -203,8 +203,8 @@ nav {
   height: 60px;
 }
 .links a {
-  color: #fff;
-  font-size: 12px;
+  color: #000;
+  font-size: 14px;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
@@ -218,7 +218,7 @@ nav {
 }
 .social-icons {
   display: none;
-  color: #fff;
+  color: #000;
 }
 /* by default hides links */
 .links {
@@ -228,9 +228,9 @@ nav {
 }
 /* toggle class */
 .show-links {
-  height: 13rem;
+  height: 17rem;
 }
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   .nav-center {
     max-width: 1170px;
     margin: 0 auto;
@@ -263,7 +263,7 @@ nav {
   }
   .social-icons a {
     margin: 0 0.5rem;
-    color: #fff;
+    color: #000;
     transition: var(--transition);
   }
   .social-icons a:hover {
