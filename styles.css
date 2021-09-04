@@ -109,7 +109,7 @@ p {
   margin-bottom: 1.25rem;
   color: var(--clr-grey-4);
   vertical-align: middle;
-  margin: 30px 20%;
+  margin: 10px 20%;
 }
 @media screen and (min-width: 800px) {
   h1 {
@@ -147,8 +147,8 @@ iframe {
 }
 
 .btn-primary {
-  padding: 0.7em 1.1em;
-  font-size: 24px;
+  padding: 8px 14px; 
+  font-size: 12px; 
   border-radius: 12px;
   background-color: #112c4e;
   border: solid 1px #112c4e;
