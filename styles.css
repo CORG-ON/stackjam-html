@@ -269,6 +269,26 @@ nav {
 
 /*
 =============== 
+About Us
+===============
+*/
+.column {
+  float: left;
+  width: 46%;
+  background-color: rgb(249, 247, 247);
+  margin: 1rem;
+  border-radius: 25px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/*
+=============== 
 buttons
 ===============
 */
