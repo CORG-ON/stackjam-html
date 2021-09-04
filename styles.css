@@ -146,6 +146,21 @@ iframe {
   border-style:none;
 }
 
+.btn-primary {
+  padding: 0.7em 1.1em;
+  font-size: 24px;
+  border-radius: 12px;
+  background-color: #112c4e;
+  border: solid 1px #112c4e;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: white;
+  border-color: #112c4e;
+  color: #112c4e;
+}
 
 /* section */
 .section {
