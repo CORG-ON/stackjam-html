@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kaisei+HarunoUmi&display=swap');
 /*
 =============== 
 Variables
@@ -57,10 +57,6 @@ Variables
 Global Styles
 ===============
 */
-
-html {
-  font-family: sans-serif;
-}
 
 *,
 ::after,
