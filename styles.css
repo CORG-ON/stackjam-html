@@ -373,7 +373,19 @@ Slideshow
   to {opacity: 1}
 }
 
+/*
+=============== 
+News + Events Page
+===============
+*/
+.description {
+  margin: 5px auto;
+  font-size: 0.75rem;
+}
 
+.event {
+  height: 58vh; width: 90%; margin: 1em auto; padding: 1em; background-color: rgb(249, 247, 247); border-radius: 10px;
+}
 
 /*
 =============== 
@@ -419,11 +431,17 @@ Meet the Team
   #team-container {
     grid-template-columns: repeat(2, 230px);
   }
+  .description {
+    font-size: 0.6rem;
+  }
 }
 
 @media screen and (max-width: 500px) {
   #team-container {
     grid-template-columns: repeat(1, 230px);
+  }
+  .description {
+    font-size: 0.5rem;
   }
 }
 
@@ -506,7 +524,6 @@ img {
   font-size: 18px; 
   font-weight: 300;
 }
-
 
 /*
 =============== 
