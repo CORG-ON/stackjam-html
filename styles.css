@@ -5,6 +5,9 @@ Fonts
 */
 @import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap');
+i::before {
+  font-family: inherit;
+}
 /*
 =============== 
 Variables
@@ -313,8 +316,17 @@ About Us
 */
 .card {
   background-color: rgb(249, 247, 247);
+  padding: 2rem 4rem;
   margin: 1rem;
   border-radius: 25px;
+}
+
+.card .left {
+  margin-left: 0;
+}
+
+.card p {
+  margin-left: 0;
 }
 
 /*
@@ -392,53 +404,24 @@ News + Events Page
 Meet the Team
 ===============
 */
-#team-container .team-description {
-  display: none;
-}
-
-#team-container .team-name {
-  margin: 0;
-}
-
-#team-container img {
-  width: 100%;
-}
-
 #team-container {
   display: grid;
-  grid-template-columns: repeat(5, 230px);
-  grid-gap: 20px;
+  grid-template-columns: repeat(3, 310px);
+  grid-gap: 2rem;
   list-style-type: none;
-  padding: 0px;
-  max-width: 1230px;
-  margin: 4em auto;
+  margin: auto auto 5em auto;
   width: fit-content;
 }
 
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1079px) {
   #team-container {
-    grid-template-columns: repeat(4, 230px);
+    grid-template-columns: repeat(2, 310px);
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 767px) {
   #team-container {
-    grid-template-columns: repeat(3, 230px);
-  }
-}
-
-@media screen and (max-width: 820px) {
-  #team-container {
-    grid-template-columns: repeat(2, 230px);
-  }
-  .description {
-    font-size: 0.6rem;
-  }
-}
-
-@media screen and (max-width: 500px) {
-  #team-container {
-    grid-template-columns: repeat(1, 230px);
+    grid-template-columns: repeat(1, 310px);
   }
   .description {
     font-size: 0.5rem;
@@ -447,53 +430,46 @@ Meet the Team
 
 #team-container > li {
   position: relative;
-  height: 300px;
-  width: 230px;
-}
-#team-popup {
-  display: none;
-  z-index: 2000;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background-color: rgba(20, 20, 20, 0.7);
+  border-radius: 13px;
+  height: 400px;
+  width: 100%;
 }
 
-#team-popup.active {
-  display: unset;
-}
-
-#team-popup > div {
-  display: none;
-  background-color: white;
-  position: relative;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  width: 60%;
-  padding: 1rem;
-  border-radius: 8px;
-}
-
-#team-popup.active > div {
-  display: block;
-}
-
-#team-popup-description {
-  overflow-y: auto;
-  max-height: 60vh;
-  height: auto;
-}
-#team-popup > div > img {
+#team-container > li > div {
   position: absolute;
-  right: 0;
-  top: 0;
-  margin: 25px;
-  width: 30px;
-  cursor: pointer;
-  user-select: none;
+  bottom: 0;
+  background-color: #edeef0;
+  border-radius: 0px 0px 6px 6px;
+  height: 100px;
+  width: 100%;
+}
+
+#team-container > li > img {
+  border-radius: 6px 6px 0px 0px;
+}
+
+#team-container > li .text-container {
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.team-name {
+  font-size: 1.3em;
+  font-weight: 500;
+  margin: 0 0 0 30px;
+  text-align: left;
+}
+
+.team-title {
+  font-size: 0.9em;
+  margin: 10px 0 0 30px;
+  text-align: left;
+}
+
+#team-container img {
+    object-fit: contain;
+    width: 100%;
 }
 
 /*
