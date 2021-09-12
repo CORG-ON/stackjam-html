@@ -521,3 +521,36 @@ Animations
 .fade-in-3-pre {
   visibility: hidden;
 }
+
+/*
+=============== 
+Contact Page
+===============
+*/
+#contact-container {
+  display: grid;
+  grid-template-columns: repeat(4, 240px);
+  grid-gap: 10rem;
+  list-style-type: none;
+  margin: auto auto 5em auto;
+  width: fit-content;
+}
+
+@media screen and (max-width: 1599px) {
+  #contact-container {
+    grid-template-columns: repeat(2, 240px);
+    grid-gap: 8rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  #contact-container {
+    grid-template-columns: repeat(1, 240px);
+  }
+}
+
+#contact-container h3, #contact-container p {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;  
+}
