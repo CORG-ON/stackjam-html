@@ -316,8 +316,17 @@ About Us
 */
 .card {
   background-color: rgb(249, 247, 247);
+  padding: 2rem 4rem;
   margin: 1rem;
   border-radius: 25px;
+}
+
+.card .left {
+  margin-left: 0;
+}
+
+.card p {
+  margin-left: 0;
 }
 
 /*
