@@ -229,6 +229,10 @@ nav {
   color: #000;
   transform: rotate(90deg);
 }
+
+.nav-header h2 a {
+  color: black;
+}
 .logo {
   height: 60px;
 }
