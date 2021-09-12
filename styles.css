@@ -235,6 +235,7 @@ nav {
 .links a {
   color: #000;
   font-size: 14px;
+  font-family: 'Yeseva One', Times New Roman, serif;
   text-transform: capitalize;
   letter-spacing: var(--spacing);
   display: block;
