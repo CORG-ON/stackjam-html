@@ -254,10 +254,7 @@ nav {
   color: var(--clr-primary-5);
   padding-left: 1.5rem;
 }
-.social-icons {
-  display: none;
-  color: #000;
-}
+
 /* by default hides links */
 .links {
   height: 0;
